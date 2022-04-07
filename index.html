@@ -211,6 +211,47 @@
             <span>site plan and copyright info</span>
         </div>
     </div>
+    <br>
+    <h1>table</h1>
+    <br>
+    <table id="table1">
+        <tr>
+            <th rowspan="2"> table head 1</th>
+            <th colspan="2">table head 2</th>
+
+        </tr>
+        <tr>
+            <th> table head 3</th>
+            <th> table head 4</th>
+        </tr>
+        <tr>
+            <td>cell1</td>
+            <td colspan="2"> cell2</td>
+        </tr>
+        <tr>
+            <td>cell3</td>
+            <td colspan="2" rowspan="2"> cell4</td>
+        </tr>
+        <tr>
+            <td> cell5</td>
+        </tr>
+        <tr>
+            <td>cell6</td>
+            <td colspan="2">
+                <table id="table2">
+                    <caption>nested table</caption>
+                    <tr>
+                        <th id="n1"> c1</th>
+                        <th id="n1">c2</th>
+                    </tr>
+                    <tr>
+                        <td id="n1">1</td>
+                        <td id="n1">2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 </body>
 
 </html>
