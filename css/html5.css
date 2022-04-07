@@ -543,21 +543,76 @@
 
 th,
 td {
-    width:min-content;
+    width: min-content;
     border: 2px dotted blueviolet;
     padding: 10px 10px 10px 10px;
     text-align: center;
 }
-th:hover,td:hover{
+
+#tm1:hover,
+#tm1:hover {
     background-color: rgb(219, 130, 130);
 }
+
 #table2,
 #n1 {
-    width:80%;
+    width: 80%;
     border: 2px dashed rgb(253, 135, 0);
     padding: 5px 5px 5px 5px;
     text-align: center;
 }
-#n1:hover{
+
+#n1:hover {
     background-color: rgb(146, 215, 255);
+}
+
+
+
+h1 {
+    color: black;
+
+}
+
+
+input[type=submit] {
+    background-color: rgb(29, 160, 29);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 4px;
+    
+
+}
+
+.div1 {
+    border: 5px outset black;
+    position: absolute;
+
+
+}
+
+
+caption {
+    padding-bottom: 15px;
+    text-align:justify;
+    margin-left: 8px;
+    padding-top: 3px;
+    font-size: 30px;
+}
+
+#f1 {
+    border-collapse: collapse;
+    border:none;
+    width: 500px;
+}
+
+#f2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    border:none;
+}
+#tt1{
+    border:none;
+    text-align: left;
 }
