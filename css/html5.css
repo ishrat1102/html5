@@ -548,11 +548,16 @@ td {
     padding: 10px 10px 10px 10px;
     text-align: center;
 }
-
+th:hover,td:hover{
+    background-color: rgb(219, 130, 130);
+}
 #table2,
 #n1 {
     width:80%;
     border: 2px dashed rgb(253, 135, 0);
     padding: 5px 5px 5px 5px;
     text-align: center;
+}
+#n1:hover{
+    background-color: rgb(146, 215, 255);
 }
