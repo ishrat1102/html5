@@ -536,3 +536,23 @@
     padding-top: 30px;
     
 }
+#table1 {
+    width: 80%;
+    border: 2px dotted blueviolet;
+}
+
+th,
+td {
+    width:min-content;
+    border: 2px dotted blueviolet;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+#table2,
+#n1 {
+    width:80%;
+    border: 2px dashed rgb(253, 135, 0);
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
