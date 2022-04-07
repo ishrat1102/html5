@@ -212,32 +212,32 @@
         </div>
     </div>
     <br>
-    <h1>table ,nested table and hover effects</h1>
+    <h1>table,nested table and hover effects</h1>
     <br>
     <table id="table1">
         <tr>
-            <th rowspan="2"> table head 1</th>
-            <th colspan="2">table head 2</th>
+            <th id="tm1" rowspan="2"> table head 1</th>
+            <th id="tm1" colspan="2">table head 2</th>
 
         </tr>
         <tr>
-            <th> table head 3</th>
-            <th> table head 4</th>
+            <th id="tm1" > table head 3</th>
+            <th id="tm1"> table head 4</th>
         </tr>
         <tr>
-            <td>cell1</td>
-            <td colspan="2"> cell2</td>
+            <td id="tm1">cell1</td>
+            <td id="tm1" colspan="2"> cell2</td>
         </tr>
         <tr>
-            <td>cell3</td>
-            <td colspan="2" rowspan="2"> cell4</td>
+            <td id="tm1">cell3</td>
+            <td id="tm1" colspan="2" rowspan="2"> cell4</td>
         </tr>
         <tr>
-            <td> cell5</td>
+            <td id="tm1"> cell5</td>
         </tr>
         <tr>
-            <td>cell6</td>
-            <td colspan="2">
+            <td id="tm1">cell6</td>
+            <td id="tm1" colspan="2">
                 <table id="table2">
                     <caption>nested table</caption>
                     <tr>
@@ -252,6 +252,68 @@
             </td>
         </tr>
     </table>
+    <br>
+    <h1>Form </h1>
+    <br>
+    <div class="div1">
+        <table id="f1">
+            <form action="#" method="post" enctype="multipart/form-data">
+                <table id="f2">
+                    <caption id="cap1">
+                        <b>Signup Form</b>
+                    </caption>
+                    <tr>
+                        <td id="tt1"><label for="id"> Name:</label>
+                        </td>
+                        <td id="tt1"><input type="text" name="id" size="5" maxlength="12" required></input></td>
+                    </tr>
+                    <tr>
+                        <td id="tt1"><label for="email"> Email:</label>
+                        </td>
+                        <td id="tt1"><input type="email" name="email" required></input></td>
+                    </tr>
+                    <tr>
+                        <td id="tt1"><label for="password"> Password:</label>
+                        </td>
+                        <td id="tt1"><input type="password" name="password" maxlength="12" required></input></td>
+                    </tr>
+                    <tr>
+                        <td id="tt1"><label for="gender">Gender:</label>
+                        </td>
+                        <td id="tt1"><input type="radio" name="male" id="gender">Male
+                            <input type="radio" name="female" id="gender">Female
+                    </tr>
+                    <tr>
+                        <td id="tt1"><label for="dob">Birthdate:</label>
+                        </td>
+                        <td id="tt1"><input type="date" name="dob" id="dob">
+                    </tr>
+                    <tr>
+                        <td id="tt1"><label for="country">Country:</label>
+                        </td>
+                        <td id="tt1"><select name="country" size="1" required>
+                                <option value=" bangladesh">Bangladesh</option>
+                                <option value=" india">India</option>
+                                <option value="turkey ">Turkey</option>
+                                <option value=" japan">Japan</option>
+                            </select>
+                    </tr>
+                    <tr>
+                        <td id="tt1" colspan="2"><input type="checkbox"
+                        name="term"> Accept Terms and Conditions </td>
+                    </tr>
+                    <tr>
+                        <td id="tt1" colspan="2"><input  type="submit" name="Signup" value="Signup"> </td>
+                    </tr>
+                </table>
+
+
+
+
+
+            </form>
+        </table>
+    </div>
 </body>
 
 </html>
